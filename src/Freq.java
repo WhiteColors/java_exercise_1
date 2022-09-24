@@ -42,6 +42,7 @@ public class Freq implements Command {
                 System.out.print(name+" ");
                 occurence.values().remove(max);
             }
+            System.out.println();
 
 
         } catch (IOException exception) {
